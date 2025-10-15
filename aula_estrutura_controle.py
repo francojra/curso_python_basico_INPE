@@ -152,3 +152,31 @@ for x in range (1,11):
  print(x) 
  
 print("\n 'continue' do Python foi usado para pular o valor 5")
+
+## Biblioteca Numpy
+
+import time
+
+t = 10000000
+inicio =  time.time()
+a, b = range(t), range(t)
+c = []
+ 
+for i in a:
+    c.append(a[i] * b[i])
+
+tempo = time.time() - inicio
+
+print('Duração: %s segundos' %tempo)
+
+import numpy as np
+import time
+
+ t = 10000000
+ inicio = time.time()
+ a = np.arange(t)
+ b = np.arange(t)
+ c = a * b
+ tempo = time.time() - inicio
+ print('Duração: %s' %tempo)
+ 
