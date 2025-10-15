@@ -1,0 +1,86 @@
+# Cusro R Básico
+# Python – Estruturas de Controle  
+# Instrutor: Lázaro Aparecido
+# Instituição INPE
+# Data: 15/10/25
+
+## Exemplo 1
+
+a=2 
+b=12 
+if a < 5 and b*a > 0 : 
+   print("ok")
+
+## Exemplo 2
+
+a = 10 
+b = 12 
+if a < 5 and b * a > 0 : 
+   print("ok") 
+else: 
+   print("nada bom") 
+
+## Exemplo 3
+
+nome = "pedro" 
+ 
+if nome == "pedro": 
+    idade = 21 
+     
+elif nome == "jose": 
+     
+    idade = 83 
+ 
+else: 
+ 
+    idade = 0 
+ 
+print(idade) 
+
+## Exemplo 4
+
+x = int(input("Por favor, entre com um numero: ")) 
+ 
+if x < 0: 
+ 
+    x = 0 
+    print('Numero negativo') 
+ 
+elif x == 0: 
+ 
+    print('Zero') 
+ 
+elif x == 1: 
+ 
+    print("Um") 
+ 
+else: 
+ 
+    print('Mais') 
+
+## Exemplo 5
+
+data = input("Entre 'y' ou 'n': ") 
+
+if data[0] == 'y': 
+    print("Voce digitou 'y'.")           # tecla 'y' 
+ 
+elif data[0] == 'n': 
+    print("Voce digitou 'n'.")           # tecla 'n' 
+ 
+else: 
+    print('tecla invalida!!!')           # outra tecla 
+
+## Exemplo 6
+
+letra = input("Digite uma letra minuscula: ") 
+ 
+if letra <= 'k': 
+    print('E uma das primeiras letras do alfabeto') 
+ 
+if letra >= 'l': 
+    print('E uma das ultimas letras do alfabeto') 
+
+## Usando a biblioteca math
+
+
