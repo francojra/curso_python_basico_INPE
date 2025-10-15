@@ -133,3 +133,12 @@ for ano in range( 1, 11 ):
     depositado = principal * (1.0 + taxa) ** ano 
     print("%4d%21.2f" % (ano, depositado)) 
 
+## Exemplo 5
+
+for x in range (1,11): 
+ 
+ if x == 7: 
+  break 
+ print(x)
+
+print("\n parou o loop em x = ", x) 
