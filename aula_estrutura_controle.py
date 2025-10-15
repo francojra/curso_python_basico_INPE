@@ -83,4 +83,16 @@ if letra >= 'l':
 
 ## Usando a biblioteca math
 
+from math import sin, cos, pi 
+ 
+graus = float(input('Digite um angulo (em graus): ')) 
+ 
+angulo = graus * pi /180   # converte para radianos 
+ 
+valor_cosseno = cos(angulo) 
+print('cosseno do angulo e: %f' %valor_cosseno) 
+ 
+valor_seno = sin(angulo) 
+print('seno do angulo e: %f' %valor_seno)
 
+print(pi)
