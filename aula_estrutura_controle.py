@@ -6,9 +6,9 @@
 
 ## Exemplo 1
 
-a=2 
-b=12 
-if a < 5 and b*a > 0 : 
+a = 2 
+b = 12 
+if a < 5 and b * a > 0 : 
    print("ok")
 
 ## Exemplo 2
@@ -104,7 +104,7 @@ print(pi)
 jan_ken_pon = ["pedra","papel","cenoura"] 
 
 for item in jan_ken_pon:
-  print item 
+  print(item) 
 
 ## Exemplo 2
 
@@ -142,3 +142,13 @@ for x in range (1,11):
  print(x)
 
 print("\n parou o loop em x = ", x) 
+
+## Exemplo 6
+
+for x in range (1,11): 
+ 
+ if x == 5: 
+  continue  # Pula o valor 5 e continua nos próximos valores do conjunto de 1,11
+ print(x) 
+ 
+print("\n 'continue' do Python foi usado para pular o valor 5")
