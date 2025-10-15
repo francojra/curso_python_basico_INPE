@@ -96,3 +96,29 @@ valor_seno = sin(angulo)
 print('seno do angulo e: %f' %valor_seno)
 
 print(pi)
+
+## Instrução for
+
+## Exemplo 1
+
+jan_ken_pon = ["pedra","papel","cenoura"] 
+
+for item in jan_ken_pon:
+  print item 
+
+## Exemplo 2
+
+for i in range(1,4): 
+  print("%da volta" % i) 
+ 
+for i in range(1,10): 
+  print("%da volta" % i) 
+
+## Medindo algumas strings: 
+ 
+a = ['gato', 'janela', 'defenestrar'] 
+  
+for x in a: 
+ 
+ print(x, len(x)) 
+ 
