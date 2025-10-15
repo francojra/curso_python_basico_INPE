@@ -114,7 +114,7 @@ for i in range(1,4):
 for i in range(1,10): 
   print("%da volta" % i) 
 
-## Medindo algumas strings: 
+## Exemplo 3 - Medindo algumas strings: 
  
 a = ['gato', 'janela', 'defenestrar'] 
   
@@ -122,3 +122,14 @@ for x in a:
  
  print(x, len(x)) 
  
+## Exemplo 4
+
+principal = 1000.0 
+taxa = 0.05         # taxa de juros 
+
+print("Ano %21s" % "Valor depositado") 
+ 
+for ano in range( 1, 11 ): 
+    depositado = principal * (1.0 + taxa) ** ano 
+    print("%4d%21.2f" % (ano, depositado)) 
+
