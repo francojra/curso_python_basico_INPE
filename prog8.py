@@ -69,3 +69,17 @@ def maximo(lista):
         if elemento > candidato:  # Para saber o candidato que apresenta a maior nota/elemento
             candidato = elemento 
     return candidato
+
+def f(x):
+    return x*x
+
+print(f(10))
+print(f(5))
+print(f(3))
+
+def f(y):
+    return y * 10
+
+print(f(3)) # 30
+print(f(5)) # 50
+print(f(4)) # 40
