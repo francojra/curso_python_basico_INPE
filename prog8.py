@@ -50,7 +50,7 @@ def teclado():
     else: 
         print('Voce digitou a tecla invalida')
         
-teclado()
+#teclado()
 
 #calculo de um polinomio
 
@@ -62,3 +62,10 @@ def polinomio(a, b, c, x):
 
 polinomio(2, 3, 4, 0.5)  # Colocar no console
 polinomio(2, 3, 4, 1.5) # Colocar no console
+
+def maximo(lista): 
+    candidato = lista[0] 
+    for elemento in lista: 
+        if elemento > candidato:  # Para saber o candidato que apresenta a maior nota/elemento
+            candidato = elemento 
+    return candidato
