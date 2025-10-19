@@ -97,8 +97,12 @@ print(f(" Jeanne"))
 print(f(" Jeanne,", "Olá,", " você aprendeu Python na", " UFRN"))
 
 def fat(n):
-    "Retorna o fatorial de n."
+    "Este é o fatorial de n:"
     for i in range (n-1, 1, -1): n*=i
     return n
 
-fat(5) # Colocar no console
+print(fat.__doc__)
+
+print(fat(5))
+
+
