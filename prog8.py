@@ -93,3 +93,5 @@ def f(nome, frase_prim = "Oi, me chamo", frase_sec=" e aprendi Python no", insti
     return frase_prim +  nome + frase_sec +  instituicao + pontuacao
 
 print(f(" Jeanne"))
+
+print(f(" Jeanne,", "Olá,", " você aprendeu Python na", " UFRN"))
