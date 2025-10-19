@@ -83,3 +83,13 @@ def f(y):
 print(f(3)) # 30
 print(f(5)) # 50
 print(f(4)) # 40
+
+def f(nome, saudacao="Oi", pontuacao="!!"):
+    return saudacao+","+nome+pontuacao 
+
+print(f("Jeanne"))
+
+def f(nome, frase_prim = "Oi, me chamo", frase_sec=" e aprendi Python no", instituicao = " INPE", pontuacao="!!"):
+    return frase_prim +  nome + frase_sec +  instituicao + pontuacao
+
+print(f(" Jeanne"))
