@@ -59,3 +59,6 @@ def polinomio(a, b, c, x):
     segundo = b * x 
     terceiro = c 
     return primeiro + segundo + terceiro 
+
+polinomio(2, 3, 4, 0.5)  # Colocar no console
+polinomio(2, 3, 4, 1.5) # Colocar no console
